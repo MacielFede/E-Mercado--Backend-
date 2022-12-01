@@ -8,7 +8,7 @@ used in my finished project https://github.com/MacielFede/E-MERCADO.
 
 #### EndPoint
 
-```http
+```
   http://localhost:3000/
 ```
 
@@ -16,7 +16,7 @@ used in my finished project https://github.com/MacielFede/E-MERCADO.
 
 Returns the list of categories.
 
-```http
+```
   GET - cats/cat.json
 ```
 
@@ -24,7 +24,7 @@ Returns the list of categories.
 
 Returns the list of products contained in the selected category.
 
-```http
+```
   GET  - cats_products/[CATEGORY_ID].json
 ```
 
@@ -36,7 +36,7 @@ Returns the list of products contained in the selected category.
 
 Returns the details of the selected product.
 
-```http
+```
   GET  - products/[PRODUCT_ID].json
 ```
 
@@ -48,7 +48,7 @@ Returns the details of the selected product.
 
 Returns the comments of the selected product.
 
-```http
+```
   GET  - products_comments/[PRODUCT_ID].json
 ```
 
@@ -60,7 +60,7 @@ Returns the comments of the selected product.
 
 Returns the shopping cart of the user.
 
-```http
+```
   GET  - user_cart/[USER_ID].json
 ```
 
@@ -73,7 +73,7 @@ Returns the shopping cart of the user.
 Writes a file with the data sent in the request body (form URL-encoded) and
  returns a congratulations message.
 
-```http
+```
   POST  - /user_cart/buy
 ```
 
@@ -82,7 +82,7 @@ Writes a file with the data sent in the request body (form URL-encoded) and
 Writes a file with the data sent in the request body (form URL-encoded) and
  returns a congratulations message.
 
-```http
+```
   POST  - /sell
 ```
 
